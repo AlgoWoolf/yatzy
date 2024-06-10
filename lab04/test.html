@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Yatzy</title>
+</head>
+<body>
+    <h1 id="title">YATZY - SIMPLE VERSION</h1>
+    <h3 id="msg">Welcome!</h3>
+    <p id="dice"></p>
+
+    <div>
+        <form>
+            <input type="checkbox" id="d1" value="1" />
+            <input type="checkbox" id="d2" value="2" />
+            <input type="checkbox" id="d3" value="3" />
+            <input type="checkbox" id="d4" value="4" />
+            <input type="checkbox" id="d5" value="5" />
+
+            <button type="button" onclick="Game.reroll()">Reroll</button>
+            <button type="button" onclick="Game.pass()">Pass Turn</button>
+        </form>
+    </div>
+
+    <script src="dice.js"></script>
+    <script src="yatzy_game.js"></script>
+</body>
+</html>
